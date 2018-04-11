@@ -5,7 +5,8 @@ body{
 }
 
 .container {
-	min-height: 80vH;
+	min-height: 72vH;
+	margin-top: 10vH;
 }
 
 .navbar {
@@ -17,17 +18,31 @@ body{
 
 }
 
+.navbar.navbar-default{
+	padding-top: 15px;
+	padding-bottom:15px;
+	font-size:20px; 
+}
+
+.social{
+	display: flex;
+	float: right;
+	margin-right: 50px;
+	list-style-type: none;
+	padding: 15px;
+}
+
 .category-thumbnail img {
 	height: 215px;
 	width: 100%;
 }
 
 .alignnone {
-	margin: 0 20px 20px 0;
+	margin: 80px 20px 20px 0;
 }
 
 .entry img {
-	height: 215px;
+	height: 260px;
 	width: 100%;
 }
 
@@ -60,15 +75,6 @@ body{
 	margin-bottom: 35px;
 }
 
-.navbar.navbar-default{
-	padding-top: 15px;
-	padding-bottom:15px;
-	font-size:20px; 
-}
-
-.pagination{
-	float:right;
-}
 
 .footer {
 	height:70px;
@@ -81,8 +87,19 @@ body{
 	padding-right: 10vH;
 }
 
+.pagination{
+	float:right;
+	margin-top: 50px;
+}
 
+.col-md-8 {
+	margin-top: 80px;
+}
 
+.wpcf7-textarea{
+	height: 135px;
+	width: 600px;
 
+}
 
 

@@ -1,10 +1,16 @@
 
-	<p class="pull-right"><a href="#">Top</a> </p>
+
 
 <footer role ="contentinfo" class="footer">
 
-	<p><small>&copy Footer</small></p>
-	
+		<?php
+			 wp_nav_menu( array(
+			'theme_location' => 'footer-menu',
+			'menu_class' => 'social',
+			'fallback_cb' => '__return_false'
+			) ); 
+	    ?>
+		
 
 	<?php wp_footer(); ?>
 
